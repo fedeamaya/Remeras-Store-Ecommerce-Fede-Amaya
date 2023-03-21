@@ -1,0 +1,285 @@
+:root {
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 400;
+}
+
+html {
+  width: 100%;
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  min-width: 320px;
+  min-height: 100vh;
+  width: 100%;
+  height: 100%;
+  background: white
+}
+
+h1 {
+  font-size: 3.2em;
+  line-height: 1.1;
+}
+
+/*FIN CSS PRINCIPAL*/
+/*---------------------*/
+/*INICIO CSS NAVBAR*/
+
+.navbar {
+  background-color: rgb(185, 150, 116);
+  color: white;
+  font-size: 150%;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.brandName {
+  font-size: 150%;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.productMenu,
+.productMenuItem {
+  background-color: rgb(156, 14, 14) !important;
+}
+
+.productMenuItem:hover {
+  font-weight: 600;
+}
+
+.chevron {
+  font-size: 120%;
+}
+
+.menuButton:hover {
+  font-weight: 600;
+  font-style: italic;
+}
+
+.cartCounter {
+  background-color: gold !important;
+  border-radius: 50px !important;
+  font-weight: 600;
+  line-height: 1;
+}
+
+.itemCart {
+  display: inline;
+  font-size: 190%;
+  color: gold;
+}
+
+.cart {
+  border: dashed 2px gold;
+  color: black;
+  border-radius: 10px;
+  padding-left: 5px;
+  padding-right: 5px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+/*FIN CSS NAVBAR*/
+/*--------------------*/
+/*INICIO CSS HOME*/
+
+.background {
+  background-image: url(./assets/Fondo.png);
+  background-size: cover;
+  margin: 0;
+  padding: 20% ;
+}
+
+.welcome {
+  font-family: "Righteous", cursive;
+  font-size: 600%;
+  text-align: center;
+  color: rgb(156, 14, 14);
+  box-shadow: 300px;
+}
+
+/*FIN CSS HOME*/
+/*--------------------*/
+/*INICIO CSS PRODUCTS*/
+
+.productsTitle {
+  margin: 2% 0;
+  text-decoration: underline;
+  font-style: italic;
+}
+
+.productListContainer {
+  width: 90%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.itemImg {
+  max-width: 200px;
+  max-height: 200px;
+  margin: 0 auto;
+}
+
+.itemName {
+  font-family: "Righteous", cursive;
+  font-size: 1.2em;
+}
+
+/*FIN CSS PRODUCTS*/
+/*--------------------*/
+/*INICIO CSS DETAILS*/
+
+.itemCounter {
+  color: #000;
+  border: #ecc94b dotted 3px;
+  padding-top: 3px;
+  font-size: 1.2em;
+}
+
+.itemCountSymbol {
+  font-size: 120%;
+  font-weight: 700;
+}
+
+.itemDetailName {
+  font-family: "Righteous", cursive;
+  font-size: 1.4em;
+}
+
+.itemDetailCard {
+  width: 30%;
+  margin: 1% auto;
+  text-align: center;
+}
+
+.itemDetailImg {
+  margin: auto;
+  height: 50%;
+  width: 50%;
+}
+
+/*FIN CSS DETAILS*/
+/*--------------------*/
+/*INICIO CSS CART*/
+
+.cartContainer {
+  background-color: rgba(40, 106, 133, 0.322);
+  margin-top: 2%;
+  padding-bottom: 1%;
+  text-align: center;
+}
+
+.cartTitle {
+  margin: 2% auto;
+  padding-top: 2%;
+  font-family: "Josefin Sans", sans-serif !important;
+}
+
+.cartItemList {
+  background-color: whitesmoke;
+  border-radius: 5px;
+  padding: 2% 0;
+  margin-bottom: 1%;
+  max-width: 90% !important;
+}
+
+.itemExpanded {
+  margin-bottom: 1%;
+  text-align: center;
+  padding-bottom: 0 !important;
+}
+
+.cartQuantity {
+  background-color: #ecc94b !important;
+  border-radius: 50px;
+}
+
+.toastAlert {
+  background: linear-gradient(to right, #ecc94b, #ebc94b);
+  color: black;
+  font-size: 1.2em;
+  font-family: "Josefin Sans", sans-serif;
+}
+
+.cartTotal {
+  background-color: #ebc94b;
+  display: inline-block;
+  position: relative;
+  left: 30%;
+  font-weight: 600;
+  margin: 2% auto;
+  border-radius: 5px;
+  font-size: 1.1em;
+}
+
+.cartDivider {
+  margin-bottom: 2%;
+}
+
+.emptyCart {
+  margin-top: 5%;
+  background-color: whitesmoke;
+  padding-bottom: 1%;
+  border-radius: 10px;
+}
+
+.emptyCart a {
+  font-size: 1.3em;
+  text-decoration: underline;
+}
+
+/*FIN CSS CART*/
+/*--------------------*/
+/*INICIO CSS FORM*/
+
+.orderForm {
+  margin-top: 2%;
+  background-color: whitesmoke;
+  font-family: "Josefin Sans", sans-serif;
+  padding-bottom: 1%;
+  border-radius: 20px;
+}
+
+.formTitle {
+  margin: 2% auto 4%;
+  text-decoration: underline;
+  font-style: italic;
+}
+
+.formInput {
+  margin-bottom: 3%;
+  padding-top: 1%;
+}
+
+.formFooter {
+  text-align: right;
+  font-size: 0.9em !important;
+}
+
+.formDivider {
+  margin-top: 2%;
+  border: dashed 2px black !important;
+
+}
+
+.orderNumber {
+  font-size: 1.1em;
+  padding-top: 2%;
+}
+
+.orderId {
+  background-color: black;
+  color: white;
+  margin-left: 4%;
+}
+
+.inputError {
+  margin-top: 0;
+  margin-bottom: 2%;
+}
+
+
+
+/*FIN CSS FORM*/

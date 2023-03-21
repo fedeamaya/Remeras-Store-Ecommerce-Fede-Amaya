@@ -1,0 +1,83 @@
+[
+    {
+      "name": "GitHub",
+      "category": "talle-s",
+      "id": 1,
+      "price": 1000,
+      "stock": 3,
+      "image": "/src/assets/imagen-github.png",
+      "description": "Remera de github morada"
+    },
+    {
+      "name": "HTML",
+      "category": "talle-s",
+      "id": 2,
+      "price": 1200,
+      "stock": 8,
+      "image": "/src/assets/imagen-html.png",
+      "description": "Remera de HTML gris oscura"
+    },
+    {
+      "name": "JavaScript",
+      "category": "talle-m",
+      "id": 3,
+      "price": 1150,
+      "stock": 3,
+      "image": "/src/assets/imagen-javascript.png",
+      "description": "Remera de JavaScript amarilla"
+    },
+    {
+      "name": "Node Js",
+      "category": "talle-l",
+      "id": 4,
+      "price": 1250,
+      "stock": 3,
+      "image": "/src/assets/imagen-node.png",
+      "description": "Remera de Node Js gris claro"
+    },
+    {
+      "name": "React Js",
+      "category": "talle-l",
+      "id": 5,
+      "price": 1350,
+      "stock": 8,
+      "image": "/src/assets/imagen-react.png",
+      "description": "Remera de React Js negra"
+    },
+    {
+      "name": "Redux",
+      "category": "talle-l",
+      "id": 6,
+      "price": 1290,
+      "stock": 3,
+      "image": "/src/assets/imagen-redux.png",
+      "description": "Remera de Redux amarilla"
+    },
+    {
+      "name": "Sass",
+      "category": "talle-xl",
+      "id": 7,
+      "price": 1190,
+      "stock": 3,
+      "image": "/src/assets/imagen-sass.png",
+      "description": "Remera de Sass negra"
+    },
+    {
+      "name": "Vue Js",
+      "category": "talle-xl",
+      "id": 8,
+      "price": 1000,
+      "stock": 3,
+      "image": "/src/assets/imagen-vue.png",
+      "description": "Remera de Vue Js gris clara"
+    },
+    {
+      "name": "TipeScript",
+      "category": "talle-xl",
+      "id": 9,
+      "price": 1040,
+      "stock": 4,
+      "image": "/src/assets/imagen-tipescript.jpg",
+      "description": "Remera de TipeScript blanca"
+    }
+  ]
