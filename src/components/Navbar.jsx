@@ -25,11 +25,11 @@ const Navbar = () => {
         </Box>
         <Menu>
             <MenuButton className="menuButton">
-              Remeras <span className="chevron">v</span>
+              Producto <span className="chevron"></span>
             </MenuButton>
             <MenuList className="productMenu">
             <Link to={"/catalog"}>
-              <MenuItem className="productMenuItem">Talles</MenuItem>
+              <MenuItem className="productMenuItem">Remeras</MenuItem>
             </Link>
             <MenuDivider />
             <Link to={`/category/${"talle-s"}`}>
