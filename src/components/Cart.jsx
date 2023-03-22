@@ -16,8 +16,8 @@ import {
   } from "@chakra-ui/react";
   import { CartContext } from "../context/ShoppingCartContext";
   import React, { useContext } from "react";
-  import Form from "./Form";
   import { Link } from "react-router-dom";
+  import OrderForm from "./OrderForm";
   
   const Cart = () => {
     const { cart, resetCart, handleRemoveItem, total, showForm, handleShowForm } =
