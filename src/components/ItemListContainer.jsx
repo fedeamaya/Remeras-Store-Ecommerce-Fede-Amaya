@@ -39,22 +39,3 @@ const ItemListContainer = () => {
 
 export default ItemListContainer;
 
-
-
-    
-      // useEffect(() => {
-      //   async function getProducts() {
-      //     try {
-      //       const response = await fetch("/src/data.json");
-      //       const productsList = await response.json();
-      //       category
-      //         ? setProducts(
-      //             productsList.filter((product) => product.category === category)
-      //           )
-      //         : setProducts(productsList);
-      //     } catch (error) {
-      //       console.log(error);
-      //     }
-      //   }
-      //   getProducts();
-      // }, [category]);

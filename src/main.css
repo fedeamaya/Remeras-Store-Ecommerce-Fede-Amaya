@@ -24,10 +24,6 @@ h1 {
   line-height: 1.1;
 }
 
-/*FIN CSS PRINCIPAL*/
-/*---------------------*/
-/*INICIO CSS NAVBAR*/
-
 .navbar {
   background-color: rgb(185, 150, 116);
   color: white;
@@ -59,7 +55,7 @@ h1 {
 }
 
 .cartCounter {
-  background-color: gold !important;
+  background-color: rgb(255, 255, 255) !important;
   border-radius: 50px !important;
   font-weight: 600;
   line-height: 1;
@@ -68,11 +64,11 @@ h1 {
 .itemCart {
   display: inline;
   font-size: 190%;
-  color: gold;
+  color: rgb(0, 0, 0);
 }
 
 .cart {
-  border: dashed 2px gold;
+  border: dashed 2px rgb(0, 0, 0);
   color: black;
   border-radius: 10px;
   padding-left: 5px;
@@ -80,10 +76,6 @@ h1 {
   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
     "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
 }
-
-/*FIN CSS NAVBAR*/
-/*--------------------*/
-/*INICIO CSS HOME*/
 
 .background {
   background-image: url(./assets/Fondo.png);
@@ -99,10 +91,6 @@ h1 {
   color: rgb(156, 14, 14);
   box-shadow: 300px;
 }
-
-/*FIN CSS HOME*/
-/*--------------------*/
-/*INICIO CSS PRODUCTS*/
 
 .productsTitle {
   margin: 2% 0;
@@ -127,9 +115,6 @@ h1 {
   font-size: 1.2em;
 }
 
-/*FIN CSS PRODUCTS*/
-/*--------------------*/
-/*INICIO CSS DETAILS*/
 
 .itemCounter {
   color: #000;
@@ -160,12 +145,8 @@ h1 {
   width: 50%;
 }
 
-/*FIN CSS DETAILS*/
-/*--------------------*/
-/*INICIO CSS CART*/
-
 .cartContainer {
-  background-color: rgba(40, 106, 133, 0.322);
+  background-color: rgba(122, 122, 122, 0.507);
   margin-top: 2%;
   padding-bottom: 1%;
   text-align: center;
@@ -174,7 +155,7 @@ h1 {
 .cartTitle {
   margin: 2% auto;
   padding-top: 2%;
-  font-family: "Josefin Sans", sans-serif !important;
+  font-family: Arial, Helvetica, sans-serif !important;
 }
 
 .cartItemList {
@@ -192,19 +173,19 @@ h1 {
 }
 
 .cartQuantity {
-  background-color: #ecc94b !important;
+  background-color: #9c7509 !important;
   border-radius: 50px;
 }
 
 .toastAlert {
-  background: linear-gradient(to right, #ecc94b, #ebc94b);
+  background: linear-gradient(to right, #ad9d63, #ad9d63);
   color: black;
   font-size: 1.2em;
-  font-family: "Josefin Sans", sans-serif;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 .cartTotal {
-  background-color: #ebc94b;
+  background-color: #9c7509;
   display: inline-block;
   position: relative;
   left: 30%;
@@ -230,14 +211,10 @@ h1 {
   text-decoration: underline;
 }
 
-/*FIN CSS CART*/
-/*--------------------*/
-/*INICIO CSS FORM*/
-
 .orderForm {
   margin-top: 2%;
   background-color: whitesmoke;
-  font-family: "Josefin Sans", sans-serif;
+  font-family: Arial, Helvetica, sans-serif;
   padding-bottom: 1%;
   border-radius: 20px;
 }
@@ -279,7 +256,3 @@ h1 {
   margin-top: 0;
   margin-bottom: 2%;
 }
-
-
-
-/*FIN CSS FORM*/

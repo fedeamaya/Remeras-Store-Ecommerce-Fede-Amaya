@@ -47,7 +47,7 @@ const Navbar = () => {
           </MenuList>
         </Menu>
         <Box>
-          <span>Contacto</span>
+          <button>Contacto</button>
         </Box>
         <Box>
           <Link to={"/cart"}>

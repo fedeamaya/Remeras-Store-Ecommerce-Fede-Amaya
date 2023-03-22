@@ -10,7 +10,7 @@ const CartWidget = () => {
     <>
         <button className="cart">
         <Badge fontSize="1em" className="cartCounter">{totalItems}</Badge>
-        <span className="itemCart material-symbols-outlined">shopping_basket</span>
+        <span class="material-symbols-outlined">shopping_cart</span>
         </button>
     </>
   );
